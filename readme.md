@@ -10,5 +10,6 @@
 
 ## 스크린샷
 
-![dd]('/img/shot1.png')
-![aa]('/img/shot2.png')
+![dd]('https://github.com/csy1204/django_study_01/blob/master/img/shot1.png')
+
+![aa]('https://github.com/csy1204/django_study_01/blob/master/img/shot2.png')
