@@ -10,6 +10,6 @@
 
 ## 스크린샷
 
-![dd]('https://github.com/csy1204/django_study_01/blob/master/img/shot1.png')
+![텍스트 입력](img/shot1.png)
 
-![aa]('https://github.com/csy1204/django_study_01/blob/master/img/shot2.png')
+![결과 출력](img/shot2.png)
