@@ -7,3 +7,8 @@
 1. base.html 과 block contents
 2. static 설정 및 bootstrap
 3. HTML + Bootstrap
+
+## 스크린샷
+
+![dd]('/img/shot1.png')
+![aa]('/img/shot2.png')
