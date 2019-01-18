@@ -1,0 +1,13 @@
+{% extends "wordcount/base.html" %}
+{% block content %}
+  <h1>Let's make a WordCount!</h1>
+  <a href="{% url 'about' %}">ABOUT</a>
+  <form action="{% url 'count' %}" mehtod="GET">
+    <div class="form-group">
+      <label for=""></label>
+      <textarea class="form-control" name="fulltext" id="" rows="10"></textarea>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+{% endblock %}

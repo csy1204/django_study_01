@@ -1,0 +1,25 @@
+{% extends "wordcount/base.html" %}
+{% block content %}
+
+<h1>Your text is...</h1>
+
+<a href="{% url 'home'%}">Replay</a>
+
+<h5> Input Text: </h5>
+{{ fulltext }}
+
+<h5> Word Count: </h5>
+{{ total }}
+
+<h5> Char Count: </h5>
+{{ fulltext | length }}
+
+<h5> Word Stat: </h5>
+<ul class="list-group">
+    {% for key, val in dict%}
+    <li class="list-group-item">{{key}}&nbsp;&nbsp;<span class="badge badge-primary">{{val}}</span></li>
+    {% endfor %}
+</ul>
+
+
+{% endblock %}
